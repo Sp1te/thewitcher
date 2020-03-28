@@ -66,4 +66,83 @@ body{
     font-size: 14px;
     line-height: 150%;
     color: #FFFFFF;
+    margin-bottom: 40px;
 }
+.watch{
+    border: none;
+    padding: 22px 72px;
+    background: #9D2929;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 85px;
+}
+.play-button{
+    margin-right: 120px;
+    background-color: transparent;
+    border: none;
+}
+.series{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.card{
+    position: relative;
+    margin-right: 30px;
+}
+.card-image{
+    border-radius: 8px
+}
+.text-card{
+    position: absolute;
+    left: 13px;
+    top: 70px;
+    color: #fff;
+}
+.card-num{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0;
+    margin-bottom: 6px;
+}
+.card-name{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}
+.arrow{
+    height: 28px;
+    background-color: transparent;
+    border: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #141218;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-text{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.footer-item{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+
