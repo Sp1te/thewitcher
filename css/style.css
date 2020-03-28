@@ -1,0 +1,69 @@
+@font-face {
+    font-family: MasonChronicles; 
+    src: local(MasonChronicles), url(../fonts/MasonChronicles.ttf);
+   }
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #141218;
+    background-image: url(../img/background.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1135px;
+    margin: auto;
+}
+.header{
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.menu{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 68px;
+}
+.menu-item{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 50px;
+}
+.social-icon:not(:last-child){
+    margin-right: 25px;
+}
+.year-genre{
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.num{
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-left: 9px;
+}
+.title{
+    font-family: MasonChronicles;
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 89px;
+    color: #FFFFFF;
+    margin: 0;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text{
+    width: 460px;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
