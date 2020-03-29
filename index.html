@@ -11,19 +11,23 @@
 <body>
     <div class="container">
         <header class="header">
-            <nav class="menu">
-                <div class="menu-list">
-                    <img src="img/logo.png" alt="logo" class="logo">
-                    <a href="" class="menu-item">Описание</a>
-                    <a href="" class="menu-item">Трейлер</a>
-                    <a href="" class="menu-item">Отзывы</a>
-                </div>
-                <div class="social">
-                    <a href="" class="social-icon"><img src="img/facebook.svg" alt=""></a>
-                    <a href="" class="social-icon"><img src="img/instagram.svg" alt=""></a>
-                    <a href="" class="social-icon"><img src="img/twitter.svg" alt=""></a>
-                </div>
-            </nav>
+            <button onclick="myFunction()" class="menu-icon"><img src="img/menu.svg" alt="menu"></button>
+            <div class="header-content" id="myContent">
+                <button class="close-button" onclick="myFunction()"><img src="img/close.png" alt=""></button>
+                <div class="logo"><img src="img/logo.png" alt="logo"></div>
+                <nav id="menu" class="menu">
+                    <div class="menu-list">
+                        <a href="" class="menu-item">Описание</a>
+                        <a href="" class="menu-item">Трейлер</a>
+                        <a href="" class="menu-item">Отзывы</a>
+                    </div>
+                    <div class="social">
+                        <a href="" class="social-icon"><img src="img/facebook.svg" alt=""></a>
+                        <a href="" class="social-icon"><img src="img/instagram.svg" alt=""></a>
+                        <a href="" class="social-icon"><img src="img/twitter.svg" alt=""></a>
+                    </div>
+                </nav>
+            </div>
         </header>
         <main>
             <div class="main-content">
@@ -57,32 +61,37 @@
 
             </div>
             <div class="series">
-                <div class="card">
+                <a href="#" class="card">
                     <img src="img/card1.png" alt="card" class="card-image">
                     <div class="text-card">
                         <h5 class="card-num">Серия #1</h5>
                         <h4 class="card-name">Начало конца</h4>
                     </div>
-                </div>
-                <div class="card">
+                </a>
+                <a href="#" class="card">
                     <img src="img/card2.png" alt="card" class="card-image">
                     <div class="text-card">
                         <h5 class="card-num">Серия #2</h5>
                         <h4 class="card-name">Четыре знака</h4>
                     </div>
-                </div>
+                </a>
                 <button class="arrow"><img src="img/arrow.svg" alt="arrow"></button>
             </div>
         </main>
-        <footer>
-            <small class="footer-text">© 2020 The Witcher. All right reserved.</small>
-            <nav class="right">
-                <a href="" class="footer-item">Privacy Policy</a>
-                <a href="" class="footer-item">Terms of Service</a>
-                <a href="" class="footer-item">Legal</a>
-            </nav>
-        </footer>
     </div>
     <!-- /.container -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <small class="footer-text">© 2020 The Witcher. All right reserved.</small>
+                <nav class="right">
+                    <a href="" class="footer-item">Privacy Policy</a>
+                    <a href="" class="footer-item">Terms of Service</a>
+                    <a href="" class="footer-item">Legal</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
